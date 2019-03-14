@@ -1,0 +1,13 @@
+<ul>
+	{% for(var index in this.list){ %}
+	<li class="list-item">
+		<div>
+			姓名：{% this.list[index].name %}
+			<br>
+			年龄：{% this.list[index].age %}
+			<br>
+			性别：{% this.list[index].sex %}	
+		</div>
+	</li>
+	{% } %}
+</ul>
